@@ -2,23 +2,25 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #71bfcc;
+  background: radial-gradient(#64d0b8, #32546e);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #container {
   width: 500px;
   height: 500px;
-  margin: 50px;
+  margin: 20px;
 
   border: 1px solid black;
   background-color: transparent;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
-  gap: 1px;
 }
 
 .square {
-  background-color: #493131;
+  background-color: #fff;
   transition: background-color 0.3s ease-in-out;
 }
 
