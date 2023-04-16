@@ -45,3 +45,5 @@ const etch = function (grid) {
 etch(grid);
 
 clearButton.addEventListener('click', clearGrid);
+
+console.log('what');
