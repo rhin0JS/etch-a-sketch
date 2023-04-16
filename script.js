@@ -39,11 +39,8 @@ const etch = function (grid) {
   gridContainer(grid);
   slider.addEventListener('input', clearGrid);
   slider.addEventListener('input', sliderInput);
-  // slider.addEventListener('input', gridContainer(grid));
 };
 
 etch(grid);
 
 clearButton.addEventListener('click', clearGrid);
-
-console.log('what');
